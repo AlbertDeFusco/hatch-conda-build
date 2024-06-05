@@ -10,7 +10,8 @@ dependencies = [
    "requests",
    "grayskull",
    "conda-souschef >=2.2.3",
-   "build"
+   "build",
+   "deepmerge"
 ]
 
 [build-system]
