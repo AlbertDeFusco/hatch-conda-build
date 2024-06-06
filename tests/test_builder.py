@@ -61,7 +61,7 @@ def test_custom_channels(project_factory, mocker: MockerFixture):
         channels = ["defaults", "bioconda"]
     """)
     project = project_factory(
-        conda_target_config=target_config
+        more_toml=target_config
     )
 
     builder = CondaBuilder(root=project)
